@@ -1,12 +1,10 @@
 import React from 'react';
-import Heading from "./components/layout/Heading";
+import Layout from "./components/layout/Layout";
 import './sass/styles.scss';
 
 function App() {
   return (
-    <div className="App">
-      <Heading />
-    </div>
+    <Layout />
   );
 }
 
